@@ -4,17 +4,16 @@
 
 body {
   background-color: $favColor;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Itim', cursive;
 }
 
 .site-header {
   font-size: 4rem;
   text-transform: uppercase;
-  letter-spacing: 1rem;
-  margin-top: 1rem;
   font-weight: bold;
   color: white;
-  font-family: 'Indie Flower', cursive;
+  display: flex;
+  justify-content: center;
 }
 
 .goat-corral {
