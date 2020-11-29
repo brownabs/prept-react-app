@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import FlipCard from '../views/flipCardContainer';
 import NavBar from '../components/NavBar';
+import Routes from '../helpers/Routes';
 
 class App extends React.Component {
   render() {
@@ -10,7 +10,7 @@ class App extends React.Component {
       <div className="App">
         <Router>
         <NavBar/>
-        <FlipCard></FlipCard>
+        <Routes/>
         </Router>
       </div>
       </>

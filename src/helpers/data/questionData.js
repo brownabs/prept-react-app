@@ -9,5 +9,4 @@ const getQuestions = () => new Promise((resolve, reject) => {
     }).catch((error) => reject(error));
 });
 
-// eslint-disable-next-line import/prefer-default-export
-export { getQuestions };
+export default { getQuestions };
