@@ -9,13 +9,8 @@ class App extends React.Component {
       <>
       <div className="App">
         <Router>
-<<<<<<< HEAD
-        <NavBar/>
-        <Routes/>
-=======
           <NavBar/>
           <Routes/>
->>>>>>> c30ee86fdea1bacb5175ccfa435412c13e95598c
         </Router>
       </div>
       </>
