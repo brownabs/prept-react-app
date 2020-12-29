@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# PREPT
+
+## Template for Prept Application
+
+#### • Create firebase for the project and upload the json file provided to the database ** check rules
+
+#### • npm install react, react-strap and react-router-dom
+        • GOOGLE IF YOU CAN'T REMEMBER:)
+
+#### • After class instruction, look through issue tickets and complete in numbered order 1-5. If you complete all five, please let the instruction team know.
+# Have fun with this!
+>>>>>>> c30ee86fdea1bacb5175ccfa435412c13e95598c

@@ -9,7 +9,11 @@ export default function QuestionCard({ card, showAnswer }) {
     <div className='card'>
       <div className='card-body'>
         <h5 className='card-title'>{card.question}</h5>
+<<<<<<< HEAD
         <Button className="ml-1" id={card.firebaseKey} onClick={(e) => showAnswer(e)}>Answer</Button>
+=======
+        <Button className="ml-1" id={card.firebaseKey} onClick={(e) => showAnswer(e)} >Answer</Button>
+>>>>>>> c30ee86fdea1bacb5175ccfa435412c13e95598c
       </div>
     </div>
     </div>
