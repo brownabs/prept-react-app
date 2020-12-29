@@ -10,3 +10,4 @@ https://prept.netlify.app
 
 - Users can create a json file or upload CSV file of answers/questions to firebase database.
 - Issue tickets were created for students to complete after the lecture.
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
