@@ -4,6 +4,13 @@ import QuestionCard from '../../components/Cards/QuestionCard';
 import AnswerCard from '../../components/Cards/AnswerCard';
 
 export default class FlashCard extends React.Component {
+  // go to question component below and send in props only key and card, go to question card
+  // go to answer component below and send in props, go to answer card
+  // create function showAnswerToQuestion and pass as props inside of QuestionCard component
+  // create button for showAnswerToQuestion in Question Card component
+  // create button in Answer Card and pass loadData as props
+  // currently, how we have it set up, what do you think will happen?
+
   state = {
     flashCards: [],
     currentCard: {},
@@ -17,9 +24,8 @@ export default class FlashCard extends React.Component {
   loadData = () => {
     if (!this.state.answer) {
       QuestionData.getQuestions().then((response) => {
-        const currentCard = response[0];
         this.setState({
-          currentCard,
+          currentCard: response[0],
           flashCards: response,
         });
       });

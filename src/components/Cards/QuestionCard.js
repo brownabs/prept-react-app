@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 
+// destructor card in function parameter
 export default function QuestionCard({ card, showAnswer }) {
   return (
     <>
