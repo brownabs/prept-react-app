@@ -4,6 +4,7 @@
 ![prept gif](prept.gif)
 
 ## Deployed Site
+https://prept.netlify.app
 
 ### How to Use
 
