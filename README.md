@@ -1,5 +1,5 @@
 # Prept
-> Prept is a flip card application to help Nashville Software students practice building in React. 
+> Prept is a flip card application created to help Nashville Software students practice building in React. 
  
 ![prept gif](prept.gif)
 
